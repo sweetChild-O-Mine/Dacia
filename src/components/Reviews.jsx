@@ -5,17 +5,14 @@ import i2 from "../assets/i2.png"
 import r2 from "../assets/r2.png"
 import i3 from "../assets/i3.png"
 import r3 from "../assets/r3.png"
-import jamie from "../assets/jamie.webp"
-import cer from "../assets/cer.jpeg"
-import tyr from "../assets/t1.webp"
 
-import dany from "../assets/dany.avif"
-import jon from "../assets/jon.avif"
-import yg from "../assets/yg.jpeg"
-import sansa from "../assets/sansa.webp"
-import jorah from '../assets/j.jpeg'
-
-import caty from "../assets/caty.jpg"
+import a1 from "../assets/a1.jpg"
+import a2 from "../assets/a2.jpg"
+import a3 from "../assets/a3.jpg"
+import m1 from "../assets/m1.jpg"
+import m2 from "../assets/m2.jpg"
+import m3 from "../assets/m3.jpg"
+import m4 from "../assets/m4.jpg"
 
 import arrow from "../assets/arrow-2.png"
 import star from "../assets/star.svg"
@@ -27,82 +24,82 @@ function Reviews() {
     {
       id: 1,
       bgImage: r3,
-      profileImg: jon,
-      name: "Jon Snow",
-      title: "King in the North",
-      reviewMsg: "Incredibly comfortable bed. Best sleep I've had in years!",
-      rating: 4
+      profileImg: m1,
+      name: "Rahul Sharma",
+      title: "Software Engineer, Bengaluru",
+      reviewMsg: "The quality of the bed exceeded my expectations. Delivery was prompt and the installation team was very professional.",
+      rating: 5
     },
     {
       id: 2,
       bgImage: r2,
-      profileImg: dany,
-      name: "Daenerys Targareyen",
-      title: "Mother of Dragons",
-      reviewMsg: "This sofa is absolutely magnificent. Perfect for royal comfort!",
+      profileImg: a1,
+      name: "Priya Singh",
+      title: "Interior Designer, Mumbai",
+      reviewMsg: "Elegant design and sturdy build. My clients are extremely happy with the new sofa set. Highly recommended!",
       rating: 5
     },
     {
       id: 3,
       bgImage: r1,
-      profileImg: cer,
-      name: "Cersei Lannister",
-      title: "Queen ",
-      reviewMsg: "Luxurious furniture fit for royalty. Excellent quality and design.",
-      rating: 5
+      profileImg: m2,
+      name: "Amit Patel",
+      title: "Business Owner, Ahmedabad",
+      reviewMsg: "The wardrobe is spacious and the finish is premium. Customer support was responsive throughout the process.",
+      rating: 4
     },
     {
       id: 4,
       bgImage: r2,
-      profileImg: tyr,
-      name: "Tyrion Lannister",
-      title: "Hand of the Queen",
-      reviewMsg: "The wardrobe is perfectly sized and beautifully crafted. Five stars!",
+      profileImg: a2,
+      name: "Sneha Nair",
+      title: "Architect, Kochi",
+      reviewMsg: "Beautiful dining table, perfect for family gatherings. The craftsmanship is top-notch.",
       rating: 5
     },
     {
       id: 5,
       bgImage: r1,
-      profileImg: yg,
-      name: "Ygritte",
-      title: "Lover Beyond the Wall",
-      reviewMsg: "These beds are warmer and cozier than anything beyond the Wall!",
+      profileImg: m3,
+      name: "Vikram Mehra",
+      title: "Marketing Manager, Delhi",
+      reviewMsg: "Very comfortable and stylish furniture. The after-sales service was excellent.",
       rating: 4
     },
     {
       id: 6,
       bgImage: r3,
-      profileImg: sansa,
-      name: "Sansa Stark",
-      title: "Lady of Winterfell",
-      reviewMsg: "Finally, furniture worthy of the North. Warm and comfortable.",
+      profileImg: a3,
+      name: "Neha Kulkarni",
+      title: "HR Consultant, Pune",
+      reviewMsg: "I am impressed with the durability and look of the products. Will definitely purchase again.",
       rating: 5
     },
     {
       id: 7,
       bgImage: r1,
-      profileImg: jamie,
-      name: "Jaime Lannister",
-      title: "The Kingslayer",
-      reviewMsg: "Outstanding craftsmanship and attention to detail. Highly recommend!",
+      profileImg: m4,
+      name: "Suresh Iyer",
+      title: "Banker, Chennai",
+      reviewMsg: "The sofa is very comfortable and fits perfectly in my living room. Great value for money.",
       rating: 4
     },
     {
       id: 8,
       bgImage: r2,
-      profileImg: caty,
-      name: "Lady Catelyn Stark",
-      title: "Lady of Winterfell",
-      reviewMsg: "Beautiful dining table perfect for family gatherings and celebrations.",
+      profileImg: a2,
+      name: "Anjali Verma",
+      title: "Teacher, Lucknow",
+      reviewMsg: "Excellent service and beautiful furniture. My family loves the new look of our home.",
       rating: 5
     },
     {
       id: 9,
       bgImage: r3,
-      profileImg: jorah,
-      name: "Ser Jorah",
-      title: "Lord of Bear Island",
-      reviewMsg: "Exceptional quality sofa. Great investment for any home!",
+      profileImg: m2,
+      name: "Rohit Gupta",
+      title: "Entrepreneur, Hyderabad",
+      reviewMsg: "High quality products at reasonable prices. The team was very helpful during selection and delivery.",
       rating: 5
     }
   ]
